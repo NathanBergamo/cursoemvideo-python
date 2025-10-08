@@ -1,0 +1,6 @@
+n = str(input('Digite seu nome completo: ')).strip() .title()
+nome = n.split()
+print('Primeiro nome: {} '.format(nome[0]))
+print('Ultimo nome: {}'.format(nome[-1]))
+print('Quantidade de nomes: {}'.format(len(nome)))
+print('Nome invertido: {}'.format(' '.join(nome[::-1])))
