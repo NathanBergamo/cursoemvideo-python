@@ -40,9 +40,3 @@ else:
             print('COMPUTADOR VENCE')
         elif jogador == 2:
             print('EMPATE')
-
-
-
-
-
-
